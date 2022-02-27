@@ -25,7 +25,7 @@ public class Activo {
     @Column
     private Integer tipo ;
 
-    @Column
+    @Column(unique = true)
     private Integer serial;
 
     @Column
